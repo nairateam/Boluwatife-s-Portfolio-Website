@@ -46,6 +46,7 @@
     border-color: #0000CCBF #006600BF;
     filter: grayscale(0.1);
     transition: 0.3s;
+    max-width: 300px;
 }
 .hero_item .femi_ban:hover{
     filter: grayscale(0);

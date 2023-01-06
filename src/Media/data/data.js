@@ -1,10 +1,10 @@
-import health from '../projects/health.svg'
-import saas from '../projects/saas.svg'
-import medic from '../projects/medic.svg'
-import nrc from '../projects/nrc.svg'
-import jae from '../projects/jae.svg'
-import yzy from '../projects/yzy.svg'
-import cast from '../projects/cast.svg'
+import health from '../projects/health.webp'
+import saas from '../projects/saas.webp'
+import medic from '../projects/medic.webp'
+import nrc from '../projects/nrc.webp'
+import jae from '../projects/jae.webp'
+import yzy from '../projects/yzy.webp'
+import cast from '../projects/cast.webp'
 
 const projects = [
     {

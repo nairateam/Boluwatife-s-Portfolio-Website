@@ -10,13 +10,13 @@ import ux from '../Media/Icons/ux.svg'
 import mm from '../Media/Icons/mm.svg'
 import figma from '../Media/Icons/fig.svg'
 import xd from '../Media/Icons/xd.svg'
-import bolu from '../Media/bolu.svg'
+import bolu from '../Media/bolu.webp'
 import PryBtn from '../Extras/Button'
 import TransBtn from '../Extras/TransBtn'
 
 
 const animateIcon = {
-    setOff:{y:50, opacity:0.1},
+    setOff:{y:50, opacity:0.2},
     setIn:{y:0,
         rotate:[0,-30,0],
         opacity: 1,
