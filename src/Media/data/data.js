@@ -4,7 +4,7 @@ import medic from '../projects/medic.webp'
 import nrc from '../projects/nrc.webp'
 import jae from '../projects/jae.webp'
 import yzy from '../projects/yzy.webp'
-import cast from '../projects/cast.webp'
+import cast from '../projects/cast.svg'
 
 const projects = [
     {

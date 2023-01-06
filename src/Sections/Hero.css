@@ -113,6 +113,9 @@
     font-size: 1.5rem;
     padding: 1rem 0;
 }
+.hero_item .low_p{
+    color: #AEAEAE;
+}
 .hero_section h2 span{
     background: linear-gradient(126.06deg, #044945 28.93%, #541DBB 117.03%);
     -webkit-background-clip: text;
@@ -174,7 +177,7 @@
     }
     .hero_flex{
         text-align: center;
-        gap: 4rem;
+        gap: 0rem;
     }
     .hero_section h2, img{
         font-size: 1.8rem;
@@ -189,7 +192,7 @@
         font-size: 1.2rem;
     }
     .hero_item h2{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
     .hero_flex .hero_item{
         text-align: center;

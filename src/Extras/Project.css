@@ -19,11 +19,10 @@
 }
 
 .wrap_p h1{
-    background: linear-gradient(126.06deg, rgba(0, 102, 0, 0.4) 28.93%, rgba(0, 0, 204, 0.4) 117.03%);
+    background: linear-gradient(126.06deg, #044945 28.93%, #541DBB 117.03%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
     font-size: 4rem;
     position: absolute;
     opacity: 0.7;
@@ -68,10 +67,16 @@
 }
 
 .button_wrap > button{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
     padding: 0.8rem 1.8rem;
     color: #FFF;
-    background: linear-gradient(126.06deg, #006600 28.93%, #0000CC 117.03%);
-    border-radius: 35px;
+    background: linear-gradient(126.06deg, #044945 28.93%, #541DBB 117.03%);
+    border-radius: 50px;
+}
+.button_wrap > button > img{
+    width: 15px;
 }
 .button_wrap > button:nth-child(2){
     background: none;
@@ -79,11 +84,10 @@
 }
 
 .project_item > h4{
-    background: linear-gradient(126.06deg, #006600 28.93%, #0000CC 117.03%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+    background: linear-gradient(126.06deg, #044945 28.93%, #541DBB 117.03%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
     padding: 0 1rem;
 }
 .project_item > h2{

@@ -7,7 +7,7 @@ const Portfolio = () => {
     <div>
         <div className="portfolio" id='portfolio' smooth>
             <h2 className='page_title'>
-            Selected Projects <span>I've Developed</span>
+            Selected Projects <span>I've Designed</span>
             </h2>
             <div className="project_wrapper">
                 <Project />

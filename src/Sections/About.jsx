@@ -13,7 +13,8 @@ const imageVariant = {
   zoom: {
     scale: 1.1,
     transition: {
-      yoyo: Infinity,
+      repeat: Infinity,
+      duration:4.5
     },
   },
 };

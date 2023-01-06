@@ -32,6 +32,19 @@
 .menu_nav{
     display: none;
 }
+.bolu_log{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.bolu_log h3{
+    background: linear-gradient(126.06deg, #006600 28.93%, #1F1FFF 117.03%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: #FFF;
+    z-index: -10;
+}
 
 @media (max-width: 1028px) {
     .nav__list{
@@ -101,7 +114,7 @@
         gap: 4rem;
         border-radius: 100px;
     }
-    .nav__wrap > img{
-        width: 35px;
+    .nav__wrap .bolu_log > img{
+        width: 45px;
     }
 }

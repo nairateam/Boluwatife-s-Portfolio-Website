@@ -2,17 +2,17 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import './Project.css'
 import projects from '../Media/data/data'
-// import sol from '../Media/projects/sol.svg'
+import view from '../Media/Icons/view.svg'
 
 const workAnimate = {
     slideOut: {x: -250, opacity: 0},
     slideIn: {x: 0, opacity:1},
-    transition: {delay:0.5, duration:1.5}
+    transition: {delay:0.5, duration:3.5}
 }
 const leftAnimate = {
     slideOut: {y: -250, opacity: 0},
     slideIn: {y: 0, opacity:1},
-    transition: {delay:0.1, duration:0.5}
+    transition: {delay:0.5, duration:1.5}
 }
 
 const Project = () => {
@@ -31,7 +31,7 @@ const Project = () => {
                     initial={'slideOut'}
                     whileInView={'slideIn'}
                     viewport={{once: false, amount: 0.5}}
-                    transition={{staggerChildren: .5, duration: 1.5, delay: 0.5}}
+                    transition={{staggerChildren: 1, duration: 1.5, delay: 1}}
                 >
                 <motion.div 
                     variants={workAnimate}
@@ -47,7 +47,7 @@ const Project = () => {
                         <p>{work.desc}</p>
                         <div className="button_wrap">
                             <button>
-                                Visit Representation
+                                See Full Representation <img src={view} alt="" />
                             </button>
                         </div>
                 </motion.div>

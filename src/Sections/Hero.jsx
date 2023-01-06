@@ -46,6 +46,7 @@ const Hero = () => {
                 >A Digital <span>Product Designer</span> Based In Nigeria
                 </motion.h2>
                 <motion.p
+                className='low_p'
                     initial={{opacity:0, y:30}}
                     animate={{opacity:1, y:0}}
                     transition={{delay:0.8, duration:1}}

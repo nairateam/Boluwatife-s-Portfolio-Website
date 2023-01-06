@@ -16,6 +16,16 @@ const variants = {
     transition: {delay: 0.5, duration: 1}
   }  
 
+  const logoLoop = {
+    loop: {
+      x: -100,
+      transition: {
+        repeat: Infinity,
+        duration:20
+      },
+    },
+  };
+
   const animateIcon = {
     setOff:{y:50},
     setIn:{y:0,
@@ -46,7 +56,13 @@ const [isOpen, setOpen] = useState(false)
         
     </motion.nav>
         <nav className='nav__wrap'>
-            <img src={logo} alt="Oluwafemi O." />
+            <div className="bolu_log">
+                <img src={logo} alt="Oluwafemi O." />
+                <motion.h3
+                    whileInView="loop"
+                    variants={logoLoop}
+                >Bolu Ayodeji</motion.h3>
+            </div>
             <ul className='nav__list'>
                 <motion.li 
                     initial={{y:-100}}
