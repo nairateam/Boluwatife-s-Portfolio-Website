@@ -1,0 +1,120 @@
+.wrap_p{
+    display: flex;
+    text-align: left;
+    padding: 2rem 0;
+    overflow: hidden;
+    position: relative;
+}
+.wrap_p:nth-child(2){
+    flex-direction: row-reverse;
+}
+.wrap_p:nth-child(4){
+    flex-direction: row-reverse;
+}
+.wrap_p:nth-child(6){
+    flex-direction: row-reverse;
+}
+.wrap_p:nth-child(8){
+    flex-direction: row-reverse;
+}
+
+.wrap_p h1{
+    background: linear-gradient(126.06deg, rgba(0, 102, 0, 0.4) 28.93%, rgba(0, 0, 204, 0.4) 117.03%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 4rem;
+    position: absolute;
+    opacity: 0.7;
+    top: -5px;
+    /* z-index: -1; */
+}
+.single_project h1:nth-child(2){
+    display: none;
+}
+
+/* .single_project:nth-child(2){
+    flex-direction: row-reverse;
+} */
+.single_project{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    backdrop-filter: blur(4.08696px);
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.project_item{
+    flex: 1 1 0;
+    overflow: hidden;
+}
+
+.project_item > img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.project_item > .button_wrap{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    padding-left: 1rem;
+}
+
+.button_wrap > button{
+    padding: 0.8rem 1.8rem;
+    color: #FFF;
+    background: linear-gradient(126.06deg, #006600 28.93%, #0000CC 117.03%);
+    border-radius: 35px;
+}
+.button_wrap > button:nth-child(2){
+    background: none;
+    border: 1px solid#006600;
+}
+
+.project_item > h4{
+    background: linear-gradient(126.06deg, #006600 28.93%, #0000CC 117.03%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 0 1rem;
+}
+.project_item > h2{
+    color: #FFF;
+    padding: 1rem;
+}
+
+.project_item > p{
+    padding-top: 0.5rem;
+    color: #E6DEDC;
+    background: rgba(57, 62, 70, 0.15);
+    backdrop-filter: blur(1.5px);
+    border-radius: 16px;
+    padding: 2rem 1rem;
+}
+
+@media (max-width: 800px) {
+    .wrap_p{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .single_project{
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+    }
+    .button_wrap{
+        justify-content: center;
+    }
+    .project_item .p_item > img{
+       object-fit: contain;
+    }
+}

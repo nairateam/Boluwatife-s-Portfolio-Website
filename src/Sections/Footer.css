@@ -1,0 +1,25 @@
+.footer{
+    background: #000000;
+    backdrop-filter: blur(1.5px);
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.footer p{
+    color: #FFF;
+    /* padding: 1rem 0; */
+    text-align: center;
+}
+.foot_wrap{
+    text-align: center;
+}
+
+.foot_wrap > span{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
