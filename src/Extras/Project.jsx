@@ -7,12 +7,12 @@ import view from '../Media/Icons/view.svg'
 const workAnimate = {
     slideOut: {x: -250, opacity: 0},
     slideIn: {x: 0, opacity:1},
-    transition: {delay:0.5, duration:3.5}
+    transition: {delay:0.1, duration:1}
 }
 const leftAnimate = {
     slideOut: {y: -250, opacity: 0},
     slideIn: {y: 0, opacity:1},
-    transition: {delay:0.5, duration:1.5}
+    transition: {delay:0, duration:0.1}
 }
 
 const Project = () => {
@@ -31,7 +31,7 @@ const Project = () => {
                     initial={'slideOut'}
                     whileInView={'slideIn'}
                     viewport={{once: false, amount: 0.5}}
-                    transition={{staggerChildren: 1, duration: 1.5, delay: 1}}
+                    transition={{staggerChildren: 1, duration: 1, delay: 1}}
                 >
                 <motion.div 
                     variants={workAnimate}
@@ -46,9 +46,10 @@ const Project = () => {
                         <h2>{work.title}</h2>
                         <p>{work.desc}</p>
                         <div className="button_wrap">
-                            <button>
+                            <a href={`${work.live}`}><button>
                                 See Full Representation <img src={view} alt="" />
                             </button>
+                            </a>
                         </div>
                 </motion.div>
             </motion.div>

@@ -1,3 +1,4 @@
+
 .wrap_p{
     display: flex;
     text-align: left;
@@ -26,7 +27,7 @@
     font-size: 4rem;
     position: absolute;
     opacity: 0.7;
-    top: -5px;
+    top: -10px;
     /* z-index: -1; */
 }
 .single_project h1:nth-child(2){
@@ -66,7 +67,9 @@
     padding-left: 1rem;
 }
 
-.button_wrap > button{
+
+
+.button_wrap > a > button{
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -74,6 +77,7 @@
     color: #FFF;
     background: linear-gradient(126.06deg, #044945 28.93%, #541DBB 117.03%);
     border-radius: 50px;
+    cursor: pointer;
 }
 .button_wrap > button > img{
     width: 15px;

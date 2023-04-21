@@ -110,10 +110,10 @@ const [isOpen, setOpen] = useState(false)
                 </motion.li>
             </ul>
             <div className="socials">
-                <img src={github} alt="Github" />
-                <img src={linkedin} alt="Linkedin" />
-                <img src={twitter} alt="Twitter" />
-                <img src={instagram} alt="Instagram" />
+                <a href="https://www.behance.net/ayodejiboluwatife"><img src={github} alt="Github" /></a>
+                <a href="https://www.linkedin.com/in/ayodeji-boluwatife"><img src={linkedin} alt="Linkedin" /></a>
+                <a href="https://twitter.com/hi_stanYe?t=8QFK2jHezaFrrKlnHj-PQg&s=09"><img src={twitter} alt="Twitter" /></a>
+                <a href="https://instagram.com/_stanye?igshid=ZDdkNTZiNTM="><img src={instagram} alt="Instagram" /></a>
             </div>
             <span onClick={showNavbar}><Hamburger 
             toggled={isOpen} toggle={setOpen} color="#006600" size=
@@ -192,7 +192,11 @@ const [isOpen, setOpen] = useState(false)
                 whileInView={'setIn'}
                 transition={{staggerChildren:0.2}}
             className="menu__socials">
-                <motion.img 
+                <motion.a href="https://www.behance.net/ayodejiboluwatife"><img src={github} alt="Github" /></motion.a>
+                <motion.a href="https://www.linkedin.com/in/ayodeji-boluwatife"><img src={linkedin} alt="Linkedin" /></motion.a>
+                <motion.a href="https://twitter.com/hi_stanYe?t=8QFK2jHezaFrrKlnHj-PQg&s=09"><img src={twitter} alt="Twitter" /></motion.a>
+                <motion.a href="https://instagram.com/_stanye?igshid=ZDdkNTZiNTM="><img src={instagram} alt="Instagram" /></motion.a>
+                {/* <motion.img 
                     variants={animateIcon}
                 src={github} alt="Github" />
                 <motion.img 
@@ -203,7 +207,7 @@ const [isOpen, setOpen] = useState(false)
                 src={twitter} alt="Twitter" />
                 <motion.img 
                     variants={animateIcon}
-                src={instagram} alt="Instagram" />
+                src={instagram} alt="Instagram" /> */}
             </motion.div>
             <div className='mecu_connect'><p>Do you have an idea?</p>
             <h3>Let's Connect!</h3></div>

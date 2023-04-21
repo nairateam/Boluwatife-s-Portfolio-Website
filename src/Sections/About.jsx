@@ -28,7 +28,7 @@ const animateText = {
       type: "spring",
       bounce: 0.4,
       delay: 0.2,
-      duration: 1.5,
+      duration: 1,
     },
   },
 };
