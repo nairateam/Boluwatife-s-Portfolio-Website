@@ -5,6 +5,7 @@ import nrc from '../projects/nrc.webp'
 import jae from '../projects/jae.webp'
 import yzy from '../projects/yzy.webp'
 import cast from '../projects/cast.svg'
+import fm from '../projects/fm.jpg'
 
 const projects = [
     {
@@ -68,6 +69,15 @@ const projects = [
         desc: "I designed the website for a tech startup, surpassed Client’s expectations and satisfied the user’s experiences.",
         source: "https://",
         live: "https://undercast.tech"
+
+    },
+    {
+        id: '08',
+        title: "Portfolio Website Design",
+        image: fm,
+        desc: "I designed the website for a Oluwafemi, a Frontend web developer. I surpassed Client’s expectations and satisfied the user’s experiences.",
+        source: "https://",
+        live: "https://femi-dev.vercel.app"
 
     },
 ]
