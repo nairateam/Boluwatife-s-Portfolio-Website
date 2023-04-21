@@ -78,3 +78,9 @@ code {
   margin: 1rem 0;
   margin-top: 2.5rem;
 }
+
+@media (max-width: 1100px) {
+  a{
+    -webkit-text-fill-color: #FFF !important;
+  }
+}

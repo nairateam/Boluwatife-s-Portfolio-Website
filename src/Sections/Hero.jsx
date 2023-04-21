@@ -10,7 +10,7 @@ import ux from '../Media/Icons/ux.svg'
 import mm from '../Media/Icons/mm.svg'
 import figma from '../Media/Icons/fig.svg'
 import xd from '../Media/Icons/xd.svg'
-import bolu from '../Media/bolu.webp'
+import bolu from '../Media/bolu.svg'
 import PryBtn from '../Extras/Button'
 import TransBtn from '../Extras/TransBtn'
 
@@ -56,8 +56,8 @@ const Hero = () => {
                     animate={{opacity:1}}
                     transition={{delay:1.5, duration:1}}
                 className="button_wrap">
-                    <TransBtn tag='View Resume' />
-                    <PryBtn tag='Contact Me' />
+                    <TransBtn tag='View Resume' link='mailto:ayodejiboluwatife19@gmail.com' />
+                    <PryBtn tag='Contact Me' link='mailto:ayodejiboluwatife19@gmail.com' />
                 </motion.div>
                 <motion.div 
                         initial={'setOff'}
